@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Body style="background-color:rgb(30, 145, 139)"> 
+  
+<link rel="stylesheet" href="img/Club.jpg>
+<body>
+
+<!-- Navigation -->
+<nav class="bar black">
+  <a1 href="#home" class="button bar-item"><u>Home</u></a1>
+  <a1 href="#band" class="button bar-item"><u>Band</u></a1>
+  <a1 href="#tour" class="button bar-item"><u>Tour</u></a1>
+  <a1 href="#contact" class="button bar-item"><u>Contact</u></a1>
+</nav>
+
+
+<section>
+
+  <img class="mySlides" src="img/club1.jpg"
+  style="width:60%">
+  <img class="mySlides" src="img/club2.jpg"
+  style="width: 60%"> <h3>Our Music Club</h3></p>
+  <img class="mySlides" src="img/club3.jpeg"
+  style="width:60%">
+</section>
+
+
+<section class="container center content" style="max-width:600px">
+  <h2 class="wide">THE BAND</h2>
+  <p class="opacity"><i>We the sdutent  chandigrah love music</i></p>
+  <p class="justify">We have created  club a fictional band website for our chandigrah collage .</p>
+</section>
+
+<section class="row-padding center light-grey">
+  <article class="-third">
+    <p>John</p>
+    
+    <img src="img/club4.jpg"  alt="Random Name"style width="50%"  class="center">
+    <p>John is the smartest.</p>
+  </article>
+  <article class="third">
+    <p>Paul</p>
+    <img src="img/club5.jpg" alt="Random Name" style="width:50%">
+    <p>Paul is the prettiest.</p>
+  </article>
+  <article class="third">
+    <p>Ringo</p>
+    <img src="img/Club6.jpg" alt="Random Name" style="width:50%">
+    <p>chandigrah Univesity music club is best </p>
+  </article>
+</section>
+
+
+<footer class="Shashank website">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
